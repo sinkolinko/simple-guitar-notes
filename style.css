@@ -1,3 +1,60 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin:0;
+  background-color: #bada55;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.button-container {
+  display: flex;
+  margin-top: 1vw;
+}
+
 .note {
-  font-size: 100px;
+  width: 40vw;
+  height: 40vw;
+  font-size: 25vw;
+  background-color: white;
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.note:after {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.start, .stop {
+  display: flex;
+  /* flex-direction: row; */
+  width: 7vw;
+  height: 7vw;
+  margin:0 1vw;
+  padding: 1vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: uppercase;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.start:hover, .stop:hover {
+  background-color: #ecf0dc;;
 }
