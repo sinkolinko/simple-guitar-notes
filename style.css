@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  margin:0;
+  margin: 0;
   background-color: #bada55;
 }
 
@@ -14,7 +15,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .button-container {
@@ -39,12 +39,13 @@ body {
   padding-top: 100%;
 }
 
-.start, .stop {
+.start,
+.stop {
   display: flex;
   /* flex-direction: row; */
   width: 7vw;
   height: 7vw;
-  margin:0 1vw;
+  margin: 0 1vw;
   padding: 1vw;
   align-items: center;
   text-align: center;
@@ -55,6 +56,11 @@ body {
   cursor: pointer;
 }
 
-.start:hover, .stop:hover {
-  background-color: #ecf0dc;;
+.start:hover,
+.stop:hover {
+  background-color: #ecf0dc;
+}
+
+.hidden {
+  display: none;
 }
