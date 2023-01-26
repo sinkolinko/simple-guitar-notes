@@ -20,6 +20,7 @@ body {
 .button-container {
   display: flex;
   margin-top: 1vw;
+  align-items: center;
 }
 
 .note {
@@ -39,8 +40,7 @@ body {
   padding-top: 100%;
 }
 
-.start,
-.stop {
+.button-big, .button-small {
   display: flex;
   /* flex-direction: row; */
   width: 7vw;
@@ -54,10 +54,16 @@ body {
   border-radius: 100%;
   background-color: white;
   cursor: pointer;
+  font-size: 2vw;
 }
 
-.start:hover,
-.stop:hover {
+.button-small {
+  width: 3vw;
+  height: 3vw;
+  font-size: 2vw;
+}
+
+.button-big:hover, .button-small:hover {
   background-color: #ecf0dc;
 }
 
